@@ -1,6 +1,8 @@
 body {
     background-color: rgb(14, 14, 14);
     color: white;
+
+    transition: .3s ease all;
 }
 h1 {
     margin-top: 16vh;
