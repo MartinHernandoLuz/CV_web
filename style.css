@@ -133,6 +133,46 @@ span:nth-child(3):hover {
     }
 }
 
+/*ASIDE CONTACTO*//*################################################*/
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#textArea {
+    color: white;
+    background-color: black;
+    border: 2px solid yellow;    
+    overflow: auto;
+}
+#email {
+    color: white;
+    background-color: black;
+    border: 2px solid yellow;
+}
+#nombre {
+    color: white;
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+aside h2 a {
+    text-decoration: none;
+}
+
 
 
 /*######################################################################*/
