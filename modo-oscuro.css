@@ -1,3 +1,5 @@
+/*el cuerpo principal, tiene position relative para el círculo qué tendrá
+dentro con potition absolute*/
 .switch {
     background-color: #343d5b;
     border-radius: 1000px;
@@ -7,6 +9,8 @@
     display: flex;
     outline: none;
 }
+
+/*con after creo la pelotita que se desplaza en el swicht*/
 .switch::after {
     content: "";
     display: block;
@@ -15,24 +19,26 @@
     position: absolute;
     background: #f1f1f1;
     top: 0;
-    left: 0;
-    right: unset;
+    left: 0; /*esto cambia según elija el usuario*/
+    right: unset;/*lo mismo*/
     border-radius: 100px;
     transition: 3s ease all;
     box-shadow: 0 0 2px 2px rgba(0 0 0 .2);
 }
+
+/*esto se agrega cuando el usuario hace click*/
 .activeSwitch {
     background: orange;
     color: #000;
 }
+/*accede también al after para cambiar la pelota de lugar*/
 .activeSwitch::after{
     left: unset;
     right: 0;
 }
 
 
-
-
+/*estilo qué tendrán los spans*/
 .switch span {
     width: 30px;
     height: 30px;
@@ -42,7 +48,7 @@
     color: #fff;
 }
 
-
+/*esto se agraga desde JS al hacer click*/
 .dark {
     background-color: white;
     color: #000;

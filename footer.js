@@ -3,11 +3,13 @@ let a1 = document.getElementById('a1')
 let a2 = document.getElementById('a2')
 let a3 = document.getElementById('a3')
 
+//mouseover es para cuando el puntero se posiciona arriba del objeto
+//mouse out es para cuando el puntero se va de arriba del objeto
 a1.addEventListener('mouseover', ()=>{
-    a1.classList.add('a1')
+    a1.classList.add('a1') //adiero la clase a1 qué se encuentra en style.css
 })
 a1.addEventListener('mouseout', ()=>{
-    a1.classList.remove('a1')
+    a1.classList.remove('a1') //remuevo la clase
 })
 
 

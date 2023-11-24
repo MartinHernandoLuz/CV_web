@@ -10,6 +10,7 @@ btnSwitch.addEventListener('click', ()=>{
     btnSwitch.classList.toggle('activeSwitch');
 
 
+    //si body tiene la clase dark, Envergadura.com cambia el color de letra
     if(document.body.classList.contains('dark')){
         a_link.style.color = "black";
         
