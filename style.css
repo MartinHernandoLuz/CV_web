@@ -72,13 +72,16 @@ h1 {
 }
 
 span:nth-child(1){
-    color: #e5ff00;
+    color: #ff7b00;
+    filter: drop-shadow(1px 1px 1px rgb(14, 14, 14));
 }
 span:nth-child(2){
-    color: blue;
+    color: rgb(22, 90, 236);
+    filter: drop-shadow(1px 1px 1px rgb(14, 14, 14));
 }
 span:nth-child(3){
-    color: #ff7b00;
+    color: rgb(255, 238, 0);
+    filter: drop-shadow(1px 1px 1px rgb(14, 14, 14));
 }
 
 span:nth-child(1):hover {
@@ -120,6 +123,7 @@ span:nth-child(3):hover {
     color:#e5ff00;
 }
 .mis_trabajos h2{
+    padding-bottom: 20px;
     color: crimson;
 }
 
@@ -180,8 +184,12 @@ aside h2 a {
     text-decoration: none;
 }
 aside form button {
-    border: 2px inset green;
-    background-color: rgba(0, 255, 21, 0.541);
+    border: 2px outset rgb(0, 0, 0);
+    background-color: rgb(238, 255, 0);
+}
+
+.linkedin {
+    text-align: center;
 }
 
 
@@ -195,7 +203,7 @@ footer {
     grid-template-rows: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     
-
+    
     transition: .3s ease-in-out all;
 }
 /*esto funciona mediante js*/
@@ -241,5 +249,7 @@ img {
     height: 40pxpx;
     align-self: center;
     justify-self: center;
+
+    filter: drop-shadow(3px 3px 1px rgb(14, 14, 14));
 }
 

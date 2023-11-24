@@ -50,6 +50,6 @@ dentro con potition absolute*/
 
 /*esto se agraga desde JS al hacer click*/
 .dark {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: #000;
 }
